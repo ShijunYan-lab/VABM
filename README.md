@@ -9,4 +9,4 @@ Kang Chen, Shijun Yan, Aiwen Jiang, Han Li, Zhifeng Wang, "Variable Aperture Bok
 <img src = "fig/model.png">
 
 ![Rendering](https://img.shields.io/badge/Rendering-EBB!-brightgreen) 
-<img src = "fig/constract_in_EBB.png">
+<img src = "fig/Constract_in_EBB.png">
