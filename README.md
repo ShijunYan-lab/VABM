@@ -8,17 +8,17 @@ Kang Chen, Shijun Yan, Aiwen Jiang, Han Li, Zhifeng Wang, "Variable Aperture Bok
 
 <img src = "fig/model.png">
 
-## Effects on different datasets
-### Effect on EBB!
-> **Note:** Visual comparisons on EBB! dataset. From left to right: PyNet, DMSHN-os, DMSHN, MPFNet, and our VABM. Our method simulates a more realistic bokeh effect compared to the other methods, and can better preserve clear focused subjects. Better observation if zoom in.
-
-<img src = "fig/Constract_in_EBB.png">
-
-### Effect on VABM
+## Effect on VABM
 
 > **Note:** Visual comparison of previous classical models on the VABD dataset. From left to right, the original image with an aperture size of f/16, IR-SDE, BokehOrNot, EBokehNet , our VABM, and the target image . To facilitate the comparison between model performances, the three apertures are taken from the same scene and angle, and from top to bottom are images with aperture sizes of (f/1.8), (f/2.8), and (f/8), respectively. The results are better when viewed enlarged.
 
-<img src = "fig/constract_in_VABM.png">
+<img src = "fig/Constract_in_VABM.png">
+
+> **Note:** Under single-target apertures, quantitative comparison of the performance and parameters with mainstream SOTA models on VABD dataset from
+all-in-focus image (of aperture f/16.0) to different bokeh effects (of respective apertures f/1.8, f/2.8, and f/8.0). The best and second-best results are highlighted and
+underlined, respectively.
+
+<img src = "fig/score.png">
 
 ## Bokeh Dataset
 ###  Everything is Better with Bokeh!(EBB!)
@@ -28,5 +28,3 @@ Kang Chen, Shijun Yan, Aiwen Jiang, Han Li, Zhifeng Wang, "Variable Aperture Bok
 ### Variable Aperture Bokeh Dataset (VABD)
 
 > **Note:** To get the EBB! dataset, click [here](https://competitions.codalab.org/competitions/24716)
-
-
